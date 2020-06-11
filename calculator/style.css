@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background: url(./bg-calci.jpg) ;
+}
+.container{
+    background-color: rgb(36, 34, 34);
+    width: 350px;
+    height: 480px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50px;
+    left: 500px;
+    padding-top: 25px;
+
+}
+H2{
+    color: white;
+    margin-left: 40%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.display-bar{
+    width: 86%;
+    height: 55px;
+    margin-left: 7%;
+    border-radius: 2px;
+}
+.operator{
+    width: 65px;
+    height: 40px;
+    margin: 10px 8px;
+    font-size: 20px;
+}
+.digit{
+    width: 60px;
+    height: 40px;
+    margin: 10px 10px;
+}
+.s-operator{
+    width: 65%;
+    height: 40px;
+    margin: 10px 8px;
+    font-size: 20px;
+}
+.key{
+    padding-left:5px;
+    
+}
